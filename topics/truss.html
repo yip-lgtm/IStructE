@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Truss Behaviour — IStructE 知識地圖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e1618;--panel:#152024;--ink:#e3ecec;--muted:#93a4a9;--line:#2a3b40;--accent:#43c2cb;--warn:#e8b86d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 "Noto Sans TC",system-ui,sans-serif;padding:0 16px 80px}
+.wrap{max-width:860px;margin:0 auto}
+header{padding:28px 0 8px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:1.8rem;font-weight:900;margin:.2rem 0}
+.meta{font:600 .78rem "IBM Plex Mono",monospace;color:var(--muted)}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+.warn{border-left:3px solid var(--warn);padding-left:12px;color:var(--muted)}
+ul.clean{padding-left:1.2rem}
+ul.clean li{margin:.3rem 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="meta">VOLUME 1 · CH 3 · P0</div>
+  <h1>Truss Behaviour · Member Removal · Zero-force</h1>
+  <p><a href="../index.html#fireman">← 返回知識地圖</a></p>
+</header>
+
+<div class="warn box">原創解釋。用於大跨車間、展覽廳、橋梁等題。唔重製原書。</div>
+
+<div class="box">
+  <h2>考試常見場景</h2>
+  <ul class="clean">
+    <li>大跨車間（例如 Jan 2026 Manufacturing Building）用 roof truss</li>
+    <li>有吊車時，不能將 crane 吊在 truss bottom chord（Examiner 常見失分）</li>
+    <li>長跨度要考慮 thermal expansion joint</li>
+  </ul>
+</div>
+
+<div class="box">
+  <h2>必須畫同寫的野</h2>
+  <ol>
+    <li>桁架類型（Warren / Pratt / Vierendeel）同為何選它</li>
+    <li>Zero-force member 在哪裡（如果有）</li>
+    <li>如果拿走一條桁架位，載重點重新分配（robustness）</li>
+    <li>吊車走在獨立 runway beam，不經過 truss</li>
+  </ol>
+</div>
+
+<div class="box">
+  <h2>Carbon 比較提示</h2>
+  <p>標準 Warren truss vs 較深的 Vierendeel：後者通常用更多鋼料。寫一句「選 Warren 可減 embodied carbon，但要確認吊車不吊在 bottom chord。」</p>
+</div>
+
+<p><a href="load-path.html">← Load Path</a> · <a href="steel.html">下一頁：Steel behaviour</a></p>
+</div>
+</body>
+</html>
