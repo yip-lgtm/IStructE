@@ -1,7 +1,10 @@
 # IStructE CM Exam — Past Paper Index (2007–2026)
 
 **StructClaw Mentor · Phase 2–3 用**  
-只列年份、題目名稱、類型、Examiner 常見失分。唔重製試卷正文或 Solution。
+只列年份、題目名稱、類型、Examiner 常見失分、同官方連結。  
+**唔重製試卷正文或 Solution。請去 IStructE 官網下載合法版本。**
+
+官方資源頁：[Chartered Membership Exam resources](https://www.istructe.org/training-and-development/membership-exams/exam-preparation/chartered-membership-exam-resources/)
 
 ---
 
@@ -17,28 +20,28 @@
 
 ## 2025–2026（最新，優先）
 
-| 年份 | 題目 / 重點 | 類型 | 備註 |
-|------|-------------|------|------|
-| Jan 2026 | Manufacturing Building（已完成 Section 1(a)） | 工業 | 下一步：Session 2 load path + sizing + carbon |
-| July 2025 | Multi-storey law court + industrial + coastal path bridge | 混合 | 官方 past paper + examiner report 已公開 |
-| Jan 2025 | Lakeside marine workshop + government building 等 | 工業 / 公共 | 注意 uplift、poor ground、transfer |
-| July 2024 | University teaching hub + industrial with cranes + coastal path | 混合 | Chief Examiner critique 可用於 bridge 題 |
+| 年份 | 題目 / 重點 | 類型 | 官方資源 |
+|------|-------------|------|----------|
+| Jan 2026 | Manufacturing Building（已完成 Section 1(a)）、climbing wall、railway bridge、renovation | 工業 / 橋 / 改建 | [Past paper](https://www.istructe.org/resources/exam-preparation/chartered-membership-exam-january-2026-past-paper/) · [Examiner Report](https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-january-2026/) |
+| July 2025 | Multi-storey law court、city centre office、replacement footbridge、seaside hotel、country park | 混合 | [Past paper](https://www.istructe.org/training-and-development/membership-exams/exam-preparation/chartered-membership-exam-resources/) · [Examiner Report](https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-july-2025/) |
+| Jan 2025 | Lakeside marine workshop、government building、bridge improvements、library & study hall、industrial | 工業 / 公共 | [Past paper](https://www.istructe.org/training-and-development/membership-exams/exam-preparation/chartered-membership-exam-resources/) · [Examiner Report](https://www.istructe.org/resources/exam-preparation/) |
+| July 2024 | University teaching hub、industrial with cranes、coastal path bridge | 混合 | [Past paper](https://www.istructe.org/training-and-development/membership-exams/exam-preparation/chartered-membership-exam-resources/) · [Examiner Report](https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-july-2024/) |
 
 ---
 
 ## 2020–2024
 
-| 年份 | 題目 / 重點 | 類型 |
-|------|-------------|------|
-| Jan 2024 | （見官方 Examiner Report） | — |
-| July 2023 | （見官方 Examiner Report） | — |
-| Feb 2023 | Question 2（有 Critiqued Answer Script） | — |
-| Sep 2022 | — | — |
-| Mar 2022 | — | — |
-| Sep 2021 | — | — |
-| Apr 2021 | — | — |
-| Sep 2020 | — | — |
-| Jan 2020 | — | — |
+| 年份 | 題目 / 重點 | 類型 | 備註 |
+|------|-------------|------|------|
+| Jan 2024 | Conversion of industrial building to apartments 等 | 改建 | 見官方 Examiner Report |
+| July 2023 | （見官方） | — | — |
+| Feb 2023 | Question 2（有 Critiqued Answer Script） | — | 官方有 critiqued script |
+| Sep 2022 | — | — | — |
+| Mar 2022 | — | — | — |
+| Sep 2021 | — | — | — |
+| Apr 2021 | — | — | — |
+| Sep 2020 | New residential development 等 | — | — |
+| Jan 2020 | — | — | — |
 
 ---
 
@@ -111,9 +114,12 @@
 
 ---
 
-## 官方資源
+## 官方資源（一直更新）
 
-- [IStructE Exam Preparation hub](https://www.istructe.org/resources/exam-preparation/)
-- 最新 Examiner Report 以官網為準
+- [IStructE Exam Preparation hub](https://www.istructe.org/training-and-development/membership-exams/exam-preparation/)
+- [Chartered Membership Exam resources](https://www.istructe.org/training-and-development/membership-exams/exam-preparation/chartered-membership-exam-resources/)
+- [Examiner Report — January 2026](https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-january-2026/)
+- [Examiner Report — July 2025](https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-july-2025/)
+- [Examiner Report — July 2024](https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-july-2024/)
 
-本 index 只作學習路線，唔提供下載或重製。
+本 index 只作學習路線。請去官網下載最新 past paper 同 examiner report。
