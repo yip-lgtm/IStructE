@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>IStructE 自學知識地圖 · StructClaw Mentor</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0e1618;
+  --panel:#152024;
+  --ink:#e3ecec;
+  --muted:#93a4a9;
+  --line:#2a3b40;
+  --accent:#43c2cb;
+  --chip:#1d2c30;
+  --warn:#e8b86d;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 "Noto Sans TC",system-ui,sans-serif;padding:0 16px 120px}
+.wrap{max-width:920px;margin:0 auto}
+header{padding:36px 0 12px}
+h1{font-size:clamp(1.7rem,5.5vw,2.6rem);font-weight:900;margin:.15rem 0 .3rem;letter-spacing:-.02em}
+.lede{color:var(--muted);max-width:42rem}
+.toc{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 8px}
+.toc a{font-size:.88rem;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:8px 14px;background:var(--panel);display:inline-block}
+.toc a:hover{border-color:var(--accent);color:var(--accent)}
+section{margin-top:40px;scroll-margin-top:20px}
+.sec-no{font:600 .78rem "IBM Plex Mono",monospace;color:var(--muted);letter-spacing:.04em}
+h2{font-size:1.4rem;font-weight:900;margin:.15rem 0 .5rem}
+h3{font-size:1.05rem;font-weight:700;margin:1.2rem 0 .4rem;color:var(--accent)}
+.book,.card,.phase,.paper{
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:10px;
+  padding:14px 16px;
+  margin:10px 0;
+}
+.book .title{font-weight:700}
+.book .note,.card .k,.muted{color:var(--muted);font-size:.92rem}
+.cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-top:8px}
+.card .k{font-size:.78rem}
+.card .v{font:600 1.05rem "IBM Plex Mono",monospace;margin-top:4px}
+.phase .meta{font:600 .78rem "IBM Plex Mono",monospace;color:var(--warn)}
+ul.clean{margin:.4rem 0 .6rem;padding-left:1.2rem}
+ul.clean li{margin:.25rem 0}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.badge{display:inline-block;font:600 .72rem "IBM Plex Mono",monospace;padding:2px 8px;border-radius:999px;border:1px solid var(--line);margin-right:6px;color:var(--muted)}
+.warn{border-left:3px solid var(--warn);padding-left:12px;margin:12px 0;color:var(--muted);font-size:.95rem}
+footer{margin-top:60px;padding-top:20px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+.en{font-size:.9em;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <h1>IStructE 自學知識地圖</h1>
+  <p class="lede">
+    StructClaw Mentor · 15 個月 Bootcamp 專屬版<br>
+    <span class="en">Self-study map for Chartered Membership Exam. Structural Fireman books are external resources — own the legal copy. No book text is reproduced here.</span>
+  </p>
+  <nav class="toc">
+    <a href="#phase1">Phase 1 基礎</a>
+    <a href="#fireman">Fireman 主題對照</a>
+    <a href="#phase2">Phase 2 Past Paper</a>
+    <a href="#phase3">Phase 3 Distinction</a>
+    <a href="#rules">每堂三件套</a>
+    <a href="#official">官方資源</a>
+  </nav>
+</header>
+
+<div class="warn">
+  本頁只提供學習路線、主題清單、官方連結同考試方法。Structural Fireman © 2026 全文、MCQ 同 Answer Explanation 請用你合法持有的副本自行閱讀。本站不重製任何受版權內容。
+</div>
+
+<section id="phase1">
+  <div class="sec-no">PHASE 1 · MONTH 1–5 · FOUNDATION MASTERY</div>
+  <h2>基礎底座 · GUIDEBOOK + Mastery Vol 1</h2>
+  <p class="muted">唔急 past paper。每堂 1–2 section，目標 9.5+/10。</p>
+
+  <div class="book">
+    <div class="title">GUIDEBOOK · A Preparation Guidance for IStructE Examination</div>
+    <div class="note">Section 1(a) two distinct schemes · load path · sustainability discriminator · Section 1(b) letter · Section 2 calculations / drawings / method statement</div>
+  </div>
+  <div class="book">
+    <div class="title">EXAM MASTERY Volume 1 · Past Paper Suggested Solutions & Winning Strategies</div>
+    <div class="note">答題框架、評分要點、常見失分。Phase 1 只用於理解「考官想睇咩」，唔用嚟嚛抄答案。</div>
+  </div>
+  <div class="book">
+    <div class="title">Structural Engineer's Pocket Book · Fiona Cobb</div>
+    <div class="note">快速查數、截面特性、常見 span-to-depth、荷载。</div>
+  </div>
+
+  <h3>Phase 1 建議堂次（中英對照）</h3>
+  <div class="cards">
+    <div class="card"><div class="k">Session 1</div><div class="v">Initial Thoughts + 2 schemes</div></div>
+    <div class="card"><div class="k">Session 2</div><div class="v">Load path + sizing</div></div>
+    <div class="card"><div class="k">Session 3</div><div class="v">Method + carbon</div></div>
+    <div class="card"><div class="k">每堂必須</div><div class="v">Sketch + Assumptions + Carbon</div></div>
+  </div>
+</section>
+
+<section id="fireman">
+  <div class="sec-no">STRUCTURAL FIREMAN © 2026 · EXTERNAL STUDY</div>
+  <h2>主題對照地圖（只列標題，不寫正文）</h2>
+  <p class="muted">你已上傳目錄。以下只把高優先章節對應到 IStructE 考試動作。正文請讀原書。</p>
+
+  <h3>Volume 1 — Structural Behaviour（P0 / P1）</h3>
+  <ul class="clean">
+    <li><span class="badge">P0</span> Ch 1–2 Supports · Equilibrium · Load path · Transfer structures → 每個 scheme 必須畫箭頭</li>
+    <li><span class="badge">P0</span> Ch 3 Truss behaviour · member removal · zero-force → 大跨車間桁架</li>
+    <li><span class="badge">P0</span> Ch 4–5 SFD/BMD · deflected shape · portal sway → 證明你明白行為，唔只套公式</li>
+    <li><span class="badge">P1</span> Ch 6 Actions · combinations · ULS/SLS · pattern loading</li>
+    <li><span class="badge">P1</span> Ch 7 RC cracking · punching · deflection · durability</li>
+    <li><span class="badge">P0</span> Ch 8 Steel yield/buckling · Le · LTB · connections · composite · construction-stage</li>
+    <li><span class="badge">P0</span> Ch 9 Ground · settlement · piles · NSF · pile cap · buoyancy</li>
+    <li><span class="badge">P1</span> Ch 10 Robustness · ties · wind · fire · thermal restraint</li>
+    <li><span class="badge">P2</span> Ch 11 Hand calcs vs FEA traps · order-of-magnitude checks</li>
+    <li><span class="badge">Skip</span> Ch 12 + Appendices · HKIE MCQ mock（IStructE 主線暫不需要）</li>
+  </ul>
+
+  <h3>Volume 2 — Construction / Building Control（選擇性）</h3>
+  <ul class="clean">
+    <li><span class="badge">P1</span> Ch 1 Construction sequence · temporary stability · partial structure → Method Statement</li>
+    <li><span class="badge">P1</span> Ch 2–5 ELS · formwork · steel erection · pile construction（題目有地庫／深基礎先深讀）</li>
+    <li><span class="badge">Skip 主線</span> Ch 7–16 Buildings Ordinance · PNAP · contract · claims · EOT（HKIE Section 1 專用）</li>
+    <li><span class="badge">P2</span> Ch 17 Economy · value engineering · buildability · duty of care → 寫 recommendation 時用</li>
+  </ul>
+</section>
+
+<section id="phase2">
+  <div class="sec-no">PHASE 2 · MONTH 6–11 · APPLICATION</div>
+  <h2>全 Past Paper Review · 每 10–14 日 1 份</h2>
+  <p class="muted">用 IStructE 官網最新資源。每份分 3 堂：Initial Thoughts + 2 schemes → Calculations + Drawings → Method Statement + submit。</p>
+
+  <div class="phase">
+    <div class="meta">SESSION 1 · INITIAL THOUGHTS</div>
+    <div class="title">Design Appraisal + Assumptions + Two Distinct Viable Schemes + Foundation + Recommendation</div>
+    <div class="note">必須手畫 overall framing + load path arrows。比較 embodied carbon。</div>
+  </div>
+  <div class="phase">
+    <div class="meta">SESSION 2 · CALCULATIONS + DRAWINGS</div>
+    <div class="title">Form & size for critical members · Stability · Deflection · Connection concept</div>
+    <div class="note">建立 form and size = 滿足 bending / shear / deflection / fire / robustness，唔係只計一個 moment。</div>
+  </div>
+  <div class="phase">
+    <div class="meta">SESSION 3 · METHOD STATEMENT</div>
+    <div class="title">Construction sequence · Temporary stability · Crane / large member erection · Testing</div>
+    <div class="note">施工期結構往往比永久狀態更危險。寫清楚誰負責臨時支撐。</div>
+  </div>
+
+  <h3>建議優先順序（由近到遠）</h3>
+  <div class="paper">
+    <div class="title">January 2026 · Manufacturing Building（已完成 Section 1(a)）</div>
+    <div class="note">下一步：Session 2 加深 load path + 初步 sizing + carbon vs Scheme 2</div>
+  </div>
+  <div class="paper">
+    <div class="title">July 2025 · Multi-storey law court + industrial + coastal path bridge</div>
+    <div class="note">官方 past paper + examiner report 已公開</div>
+  </div>
+  <div class="paper">
+    <div class="title">January 2025 · Lakeside marine workshop + government building 等</div>
+    <div class="note">注意 uplift、poor ground、transfer structures</div>
+  </div>
+  <div class="paper">
+    <div class="title">July 2024 · University teaching hub + industrial with cranes + coastal path</div>
+    <div class="note">Chief Examiner critique 可用於 bridge 題</div>
+  </div>
+  <p class="muted">完整索引：<a href="past-paper-index.md">past-paper-index.md</a></p>
+</section>
+
+<section id="phase3">
+  <div class="sec-no">PHASE 3 · MONTH 12–15 · DISTINCTION PUSH</div>
+  <h2>Timed 7 小時 mock + 弱點針對</h2>
+  <div class="cards">
+    <div class="card"><div class="k">每週</div><div class="v">3 次 full simulation</div></div>
+    <div class="card"><div class="k">最後 2 個月</div><div class="v">每週 1 次 full mock</div></div>
+    <div class="card"><div class="k">常見弱點</div><div class="v">Stability · Foundation · Carbon</div></div>
+    <div class="card"><div class="k">分析</div><div class="v">Examiner Report 逐題對照</div></div>
+  </div>
+</section>
+
+<section id="rules">
+  <div class="sec-no">MANDATORY EVERY SESSION</div>
+  <h2>每堂三件套 · 強制</h2>
+  <div class="cards">
+    <div class="card"><div class="k">1</div><div class="v">手畫 Sketch</div><div class="note" style="margin-top:6px">Overall framing + load path arrows + critical detail</div></div>
+    <div class="card"><div class="k">2</div><div class="v">Assumptions</div><div class="note" style="margin-top:6px">Ground · loading · codes · fire · temporary works</div></div>
+    <div class="card"><div class="k">3</div><div class="v">Carbon</div><div class="note" style="margin-top:6px">Embodied carbon · material efficiency · circular economy</div></div>
+  </div>
+  <p style="margin-top:14px">目標：Phase 1 結束時，全部 section 都做到 9.5+/10。15 個月 ≈ 195 次 intensive session。</p>
+</section>
+
+<section id="official">
+  <div class="sec-no">OFFICIAL RESOURCES</div>
+  <h2>官方 Past Paper + Examiner Report</h2>
+  <ul class="clean">
+    <li><a href="https://www.istructe.org/resources/exam-preparation/" target="_blank" rel="noopener">IStructE Exam Preparation hub</a></li>
+    <li><a href="https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-january-2026/" target="_blank" rel="noopener">Examiner Report — January 2026</a></li>
+    <li><a href="https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-july-2025/" target="_blank" rel="noopener">Examiner Report — July 2025</a></li>
+    <li><a href="https://www.istructe.org/resources/exam-preparation/chartered-membership-examiner-report-july-2024/" target="_blank" rel="noopener">Examiner Report — July 2024</a></li>
+  </ul>
+  <p class="muted">過去試卷與報告以 IStructE 官網為準。本頁不提供下載或重製。</p>
+</section>
+
+<footer>
+  <p>← 參考風格：<a href="https://yip-lgtm.github.io/hd-me-lab/knowledge.html">機械工程知識地圖</a></p>
+  <p>本頁為 StructClaw Mentor 自學路線圖。Structural Fireman © 2026 為獨立教材，請用合法副本。IStructE 為官方考試機構。</p>
+  <p>Current progress: Phase 1 Session 1 (Jan 2026 Q1 Section 1(a)) completed. Next: Session 2 load path + sizing.</p>
+</footer>
+</div>
+</body>
+</html>
