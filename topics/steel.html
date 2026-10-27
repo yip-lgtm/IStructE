@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Steel Behaviour — IStructE 知識地圖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e1618;--panel:#152024;--ink:#e3ecec;--muted:#93a4a9;--line:#2a3b40;--accent:#43c2cb;--warn:#e8b86d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 "Noto Sans TC",system-ui,sans-serif;padding:0 16px 80px}
+.wrap{max-width:860px;margin:0 auto}
+header{padding:28px 0 8px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:1.8rem;font-weight:900;margin:.2rem 0}
+.meta{font:600 .78rem "IBM Plex Mono",monospace;color:var(--muted)}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+.warn{border-left:3px solid var(--warn);padding-left:12px;color:var(--muted)}
+ul.clean{padding-left:1.2rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="meta">VOLUME 1 · CH 8 · P0</div>
+  <h1>Steel · Yield / Buckling · LTB · Connections · Construction Stage</h1>
+  <p><a href="../index.html#fireman">← 返回知識地圖</a></p>
+</header>
+
+<div class="warn box">原創解釋。Section 2 form & size 常見要點。</div>
+
+<div class="box">
+  <h2>Section 2 必須檢查的野</h2>
+  <ul class="clean">
+    <li><strong>Bending</strong> — M ≤ Mc (class 影響塑性轉動)</li>
+    <li><strong>Shear</strong> — 特別是短跨或集中載重</li>
+    <li><strong>LTB</strong> — 未約束受壓翼緣的長度 Le</li>
+    <li><strong>Deflection</strong> — SLS，特別是 cantilever 同長跨</li>
+    <li><strong>Connection</strong> — 概念圖（不使用詳細計算全部螺栓）</li>
+    <li><strong>Construction stage</strong> — 吊裝時未完全約束的狀態</li>
+  </ul>
+</div>
+
+<div class="box">
+  <h2>常見失分</h2>
+  <p>只計 moment，唔做 shear / deflection / fire / robustness。或者忽略 construction stage（例如長樑吊裝時只有一邊支撐）。</p>
+</div>
+
+<p><a href="truss.html">← Truss</a> · <a href="ground.html">下一頁：Ground & Foundations</a></p>
+</div>
+</body>
+</html>
