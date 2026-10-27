@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Load Path · Equilibrium · Transfer — IStructE 知識地圖</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0e1618;--panel:#152024;--ink:#e3ecec;--muted:#93a4a9;--line:#2a3b40;--accent:#43c2cb;--warn:#e8b86d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.7 "Noto Sans TC",system-ui,sans-serif;padding:0 16px 80px}
+.wrap{max-width:860px;margin:0 auto}
+header{padding:28px 0 8px}
+a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}
+h1{font-size:1.8rem;font-weight:900;margin:.2rem 0}
+.meta{font:600 .78rem "IBM Plex Mono",monospace;color:var(--muted)}
+.box{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:12px 0}
+.warn{border-left:3px solid var(--warn);padding-left:12px;color:var(--muted)}
+ul.clean{padding-left:1.2rem}
+ul.clean li{margin:.3rem 0}
+.en{color:var(--muted);font-size:.92em}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="meta">VOLUME 1 · CH 1–2 · P0</div>
+  <h1>Load Path · Equilibrium · Transfer Structures</h1>
+  <p class="en">Every scheme you draw must show where the load goes. Examiners mark the arrows.</p>
+  <p><a href="../index.html#fireman">← 返回知識地圖</a></p>
+</header>
+
+<div class="warn box">
+  本頁為原創解釋，對應 IStructE Section 1(a) 要求。唔重製 Structural Fireman 正文。
+</div>
+
+<div class="box">
+  <h2>為何係考試核心</h2>
+  <p>Section 1(a) 要求你畫兩套 distinct schemes，同時表達：</p>
+  <ul class="clean">
+    <li>竖向荷载點走（slab → beam → column → foundation）</li>
+    <li>横向穩定點走（floor diaphragm → core / brace / frame → foundation）</li>
+    <li>Transfer 結構點改路（例如大跨下面有柱網變）</li>
+  </ul>
+  <p>考官最常見的失分：只畫框架，唔畫箭頭；或者箭頭不合理（例如力徑直接跳去基礎，唔經過柱）。</p>
+</div>
+
+<div class="box">
+  <h2>考試必畫三樣野</h2>
+  <ol>
+    <li><strong>Overall framing plan</strong> — 柱網、大樑方向、core 位置</li>
+    <li><strong>Load path arrows</strong> — 竖向（紅）+横向（藍），每層都要有</li>
+    <li><strong>Critical detail</strong> — transfer beam、cantilever root、connection、或 foundation</li>
+  </ol>
+  <p>例：大跨車間用 truss，下面有 office。你必須畫出 truss bottom chord 點把力交給下面柱，以及下面柱點去基礎。</p>
+</div>
+
+<div class="box">
+  <h2>Transfer Structures 常見場景</h2>
+  <ul class="clean">
+    <li>大跨下面柱網不同（例如上層 15 m grid，下層 7.5 m）</li>
+    <li>Cantilever 或 hanging floor（例如 control tower、atrium edge）</li>
+    <li>現有結構上加層（要檢查原有柱能否承受新荷载）</li>
+  </ul>
+  <p>寫推薦時要講：為何選這個 transfer 方式（深度、施工難度、carbon）。</p>
+</div>
+
+<div class="box">
+  <h2>下一步練習</h2>
+  <p>拿你 Jan 2026 Manufacturing Building 的兩套 scheme，每套加畫 3–4 條 load path 箭頭。再寫一句：「横向力從邊界點去 core。」</p>
+</div>
+
+<p><a href="../index.html#fireman">← 返回主題對照</a> · <a href="truss.html">下一頁：Truss behaviour</a></p>
+</div>
+</body>
+</html>
